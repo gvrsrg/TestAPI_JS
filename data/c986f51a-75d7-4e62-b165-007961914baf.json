@@ -1,0 +1,52 @@
+{
+  "formId": "s8NnDcR1QVus",
+  "formName": "My form",
+  "submission": {
+    "submissionId": "c986f51a-75d7-4e62-b165-007961914baf",
+    "submissionTime": "2026-03-29T16:25:11.486Z",
+    "lastUpdatedAt": "2026-03-29T16:25:11.486Z",
+    "questions": [
+      {
+        "id": "qpB4",
+        "name": "Name",
+        "type": "ShortAnswer",
+        "value": "Sergey"
+      },
+      {
+        "id": "n8dj",
+        "name": "Email",
+        "type": "EmailInput",
+        "value": "gvrsrg@gmail.com"
+      },
+      {
+        "id": "pgfb",
+        "name": "Phone number",
+        "type": "PhoneNumber",
+        "value": "+972533884817"
+      },
+      {
+        "id": "8x5L",
+        "name": "Upload your CV",
+        "type": "FileUpload",
+        "value": [
+          {
+            "url": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-629248/flowpublicid-s8NnDcR1QVus/f3bd7b39-ffad-4c71-b447-58b7029e1879-RbCfydkO2HCfjCpT21agDJRfq7hRmgRcOBv6tR25z7BuIjcp9lK4UPvJtKhjzeHGBqg6gND9HtwHB49nWHBwrV3G5EDKLehEULe/CV_Sergey_Gavrilchick_FullStack.pdf",
+            "filename": "CV_Sergey_Gavrilchick_FullStack.pdf"
+          }
+        ]
+      },
+      {
+        "id": "5eAh",
+        "name": "Interested in",
+        "type": "Dropdown",
+        "value": "Fullstack"
+      }
+    ],
+    "calculations": [],
+    "urlParameters": [],
+    "quiz": {},
+    "documents": [],
+    "scheduling": [],
+    "payments": []
+  }
+}
