@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 // POST 
 app.post('/api/data', (req, res) => {
     const receivedData = req.body;
-    console.log('receivedData:', receivedData);
+    console.log('receivedData:', JSON.stringify(receivedData, null, 2));
     if ("formId" in receivedData) {
         const submissionId = receivedData.submission.submissionId; // 
         const filePath = `./data/${submissionId}.json`;    
